@@ -9,42 +9,21 @@
 
   @page  {
     size: A4;
-
-    @bottom-center  {
-      content: element(footer);
-    }
-  }
-
-  @page :right {
     margin-top: 15mm;
     margin-left: 20mm;
     margin-right: 15mm;
     margin-bottom: 25mm;
 
+    @bottom-center  {
+      content: element(footer);
+    }
+
     @top-right  {
       content: counter(page);
       font-size: 0.7em;
     }
 
     @top-left  {
-      content: string(title);
-      font-size: 0.7em;
-    }
-  }
-
-  @page :left {
-    margin-top: 15mm;
-    margin-left: 15mm;
-    margin-right: 20mm;
-    margin-bottom: 25mm;
-
-    @top-left  {
-      content: counter(page);
-      font-size: 0.7em;
-      width: 5ch;
-    }
-
-    @top-right  {
       content: string(title);
       font-size: 0.7em;
     }

@@ -1,14 +1,20 @@
 /* paged.js interface  */
 @media screen {
 #print {
-    width: 60px;
     position: fixed;
     z-index: 20000;
-    background: var(--color-body);
+    background: black;
     fill: white;
+    color: white;
     padding: 1em;
-    right: 0;
-    top: 0;
+    right: 30px;
+    top: 30px;
+  }
+}
+
+@media print {
+  #print {
+    display: none;
   }
 }
   
