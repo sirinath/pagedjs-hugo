@@ -1,6 +1,13 @@
 # Use Paged.js inside Hugo the easy way :)
 
 Paged.js is a library that transforms HTML and CSS into beautiful paginated document, ready to be printed or saved as PDF. If you want to know more about Paged.js, please go to [https://www.pagedjs.org]
+This project is an implementation for the static site generator Hugo.
+
+## Install component as a submodule
+
+```sh
+git submodule add repo-location themes/pagedjs
+```
 
 ## Using the plug-in
 
