@@ -9,6 +9,13 @@ This project is an implementation for the static site generator Hugo.
 git submodule add https://gitlab.pagedmedia.org/julientaq/pagedjs-hugo.git themes/pagedjs
 ```
 
+To update the component
+
+```sh
+git submodule update --remote themes/pagedjs
+```
+
+
 ## Using the plug-in
 
 If you want to use the component, you need to add two partials: 
