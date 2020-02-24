@@ -24,8 +24,10 @@
     });
 
 
-    function preview() {
-        window.PagedPolyfill.preview();
+   async function preview() {
+        await window.PagedPolyfill.preview();
+        window.print();
+
     }
 
 </script>
